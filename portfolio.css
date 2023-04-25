@@ -4,10 +4,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+
 }
 /* *****Navbar***** */
 .nav-bar{
-    background-color: red;
+    background-color: grey;
 } 
 .collapse {
   display: flex;
@@ -37,8 +38,12 @@
 }
 /* *****Academic page***** */
 .academic{
-  background: url("./image/depositphotos_87418166-stock-photo-pile-of-books-on-wooden.jpg");
+  background: url("./image/vintage-old-book-blackboard-background-vertical_771335-8635.gif");
   background-repeat: no-repeat;
-  /* background-size: 100%; */
+  background-size: 100% 100%;
+  color: white;
+  /* background-color: blue; */
+  color: white;
+
 }
- 
+/* *****academic profile***** */
