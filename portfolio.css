@@ -1,0 +1,44 @@
+/* *****Main page***** */
+.portfolio{
+  background-image: url("./image/photo-1619972898592-5de4b1c68025.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+/* *****Navbar***** */
+.nav-bar{
+    background-color: red;
+} 
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+/* *****Page-main***** */
+.page-main{
+  margin: 75px auto;
+  width: 36%;
+  height: 500px;
+  border: 3px solid skyblue;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.page-con a{
+  color: white;
+}
+.page-but{
+  margin: 30px;
+}
+.img{
+  border-radius: 15px 50px;
+  background-color: skyblue;
+  margin-top: 65px;
+  height: 250px;
+}
+/* *****Academic page***** */
+.academic{
+  background: url("./image/depositphotos_87418166-stock-photo-pile-of-books-on-wooden.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+}
+ 
