@@ -38,11 +38,9 @@
 }
 /* *****Academic page***** */
 .academic{
-  background: url("./image/vintage-old-book-blackboard-background-vertical_771335-8635.gif");
+  background: url("./image/book.avif");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: white;
-  /* background-color: blue; */
+  background-size: contain; 
   color: white;
 
 }
