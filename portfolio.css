@@ -10,6 +10,9 @@
 .nav-bar{
     background-color: grey;
 } 
+.navbar-nav .nav-item .nav_link:hover{
+  color: rgba(0,255,255,0.7);
+}
 .collapse {
   display: flex;
   justify-content: flex-end;
@@ -19,13 +22,20 @@
   margin: 75px auto;
   width: 36%;
   height: 500px;
-  border: 3px solid skyblue;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
+  transform: translateY(-5px);
   padding: 50px;
   display: flex;
   justify-content: space-around;
 }
+.page-main:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+}
 .page-con a{
   color: white;
+  margin-right: 10px;
 }
 .page-but{
   margin: 30px;
@@ -38,17 +48,18 @@
 }
 /* *****Academic page***** */
 .academic{
-  /* background: url("./image/book.avif");
+  color: white; 
+  background-color: brown;
+ }
+.aca_con{
+  background: url("./image/acadamic.jpeg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: contain;  */
-  color: white;
-  background-color: skyblue;
-
 }
 /* *****Academic profile***** */
 .title{
   text-align: center;
-    margin-top: 60px;
+  padding-top: 60px;
 }
  
 .main-con{
@@ -58,9 +69,15 @@
   margin: 45px auto;
   width: 30%;
   height: 255px;
-  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
+  transform: translateY(-5px);
   padding: 37px;
   text-align: center;
+}
+.content:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
 }
 /* *****Project***** */
 .project{
@@ -68,12 +85,17 @@
     justify-content: center;
     flex-direction: column;
     margin: 50px 200px 60px 200px;
+    
 }
 .pro_img{
-  background-image: url("./image/hospital.avif");
-  
+  border-radius: 5px solid black;
+  background-image: url("./image/hos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .pro_img1{
-  background-image: url("./image/leaf.png");
-  
+  background-image: url("./image/pla.webp");
+  background-repeat: no-repeat;
+  background-position: center;  
 }
