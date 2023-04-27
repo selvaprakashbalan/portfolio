@@ -1,4 +1,4 @@
-/* *****Main page***** */
+/* *****Portfolio page***** */
 .portfolio{
   background-image: url("./image/photo-1619972898592-5de4b1c68025.jpeg");
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: flex-end;
 }
-/* *****Page-main***** */
+/* *****Main page ***** */
 .page-main{
   margin: 75px auto;
   width: 36%;
@@ -38,10 +38,42 @@
 }
 /* *****Academic page***** */
 .academic{
-  background: url("./image/book.avif");
+  /* background: url("./image/book.avif");
   background-repeat: no-repeat;
-  background-size: contain; 
+  background-size: contain;  */
   color: white;
+  background-color: skyblue;
 
 }
-/* *****academic profile***** */
+/* *****Academic profile***** */
+.title{
+  text-align: center;
+    margin-top: 60px;
+}
+ 
+.main-con{
+  margin-left: 90px;
+}
+.content{
+  margin: 45px auto;
+  width: 30%;
+  height: 255px;
+  border: 3px solid black;
+  padding: 37px;
+  text-align: center;
+}
+/* *****Project***** */
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 200px 60px 200px;
+}
+.pro_img{
+  background-image: url("./image/hospital.avif");
+  
+}
+.pro_img1{
+  background-image: url("./image/leaf.png");
+  
+}
