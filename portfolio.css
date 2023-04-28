@@ -49,12 +49,14 @@
 /* *****Academic page***** */
 .academic{
   color: white; 
-  background-color: brown;
+  background-color: #404042;
  }
 .aca_con{
   background: url("./image/acadamic.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 712px;
+  padding-top: 75px;
 }
 /* *****Academic profile***** */
 .title{
@@ -87,6 +89,32 @@
     margin: 50px 200px 60px 200px;
     
 }
+.project1{
+    margin: 45px auto;
+    width: 84%;
+    height: 360px;
+    border-radius: 11px;
+    box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
+    transform: translateY(-5px);
+    padding: 32px;
+}
+.project1:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+}
+.project2{
+  margin: 45px auto;
+  width: 84%;
+  height: 420px;
+  border-radius: 11px;
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
+  transform: translateY(-5px);
+  padding: 32px;
+}
+.project2:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+}
 .pro_img{
   border-radius: 5px solid black;
   background-image: url("./image/hos.png");
@@ -98,4 +126,93 @@
   background-image: url("./image/pla.webp");
   background-repeat: no-repeat;
   background-position: center;  
+}
+/* *****Certificate***** */
+.certificate{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cert_con{
+  text-align: center;
+  padding: 20px;
+}
+.cert_main{
+  margin: 45px auto;
+  width: 30%;
+  height: 514px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
+  transform: translateY(-5px);
+  padding: 37px;
+}
+.cert_main:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
 }
