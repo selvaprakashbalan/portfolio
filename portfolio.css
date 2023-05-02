@@ -1,7 +1,8 @@
 .resume{
   background-image: url("./image/bg.jpg");
   background-repeat: no-repeat;
-  color: black;
+  background-size: cover;
+  color: white;
 }
 /* *****Portfolio page***** */
 .portfolio{
@@ -190,10 +191,16 @@
 } 
 .contact input{
   border: none;
+  background: none;
 }
 .contact input:hover{
+  border-radius: none;
+
+}  
+.contact textarea{
   border: none;
-}   
+  background: none;
+} 
 
 /* 
   ##Device = Desktops
