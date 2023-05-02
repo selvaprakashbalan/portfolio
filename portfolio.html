@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="portfolio.css">
 </head>
-<body class="portfolio">
+<body class="resume">
+   <div class="portfolio">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
      <!-- *****Navbar***** -->
     <nav class="navbar navbar-expand-lg nav-bar">
@@ -21,45 +22,142 @@
            <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active nav_link" aria-current="page" href="portfolio.html">Home</a>
+                   <a class="nav-link active nav_link" aria-current="page" href="#portfolio">Home</a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link active nav_link" aria-current="page" href="academic.html">Academic</a>
+                    <a class="nav-link active nav_link" aria-current="page" href="#academic">Academic</a>
                  </li>
-                 <!-- <li class="nav-item">
+                 <li class="nav-item">
                     <a class="nav-link active nav_link" aria-current="page" href="#project">Projects</a>
-                 </li>   -->
+                 </li>  
                  <li class="nav-item">
-                    <a class="nav-link active nav_link" aria-current="page" href="#">Technical</a>
+                    <a class="nav-link active nav_link" aria-current="page" href="#technical">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active nav_link" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link active nav_link" aria-current="page" href="#contact">Contact</a>
               </li>
               </ul>
            </div>
        </div>
-   </nav>
-   <!-- *****Main page***** -->
-   <div class="row container page-main">
-      <div class="col page-con">
-        <h3>Selvaprakash.B</h3>
-        <p>Software Developer</p>
-        <h6>Email:</h6>
-        <p>selvaprakash161@gmail.com</p>
-        <h6>Phone no:</h6>
-        <p>+91 7871880860</p>
-        <h6>Address</h6>
-        <p>No.9,East Tharanallur Trichy - 620008</p>
-        <a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a> 
-        <a href=""><i class="fa-brands fa-square-github fa-2x"></i></a> 
-        <a href=""><i class="fa-brands fa-square-twitter fa-2x"></i></a> 
-        <div class="page-but">
-          <button type="button" class="btn btn-outline-info">Contact</button>
+    </nav>
+    <!-- *****Main page***** -->
+    <div class="row container page-main" id="portfolio">
+       <div class="col page-con">
+          <h3>Selvaprakash.B</h3>
+          <p>Software Developer</p>
+          <h6>Email:</h6>
+          <p>selvaprakash161@gmail.com</p>
+          <h6>Phone no:</h6>
+          <p>+91 7871880860</p>
+          <h6>Address</h6>
+          <p>No.9,East Tharanallur Trichy - 620008</p>
+          <a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a> 
+          <a href=""><i class="fa-brands fa-square-github fa-2x"></i></a> 
+          <a href=""><i class="fa-brands fa-square-twitter fa-2x"></i></a> 
+          <div class="page-but">
+             <button type="button" class="btn btn-outline-info" href="#contact">Contact</button>
+           </div>
         </div>
-      </div>
-      <div class="col img">
+        <div class="col img">
 
+        </div>
+    </div>   
+   </div>
+   <!-- *****academic profile***** -->
+   <div class="aca_con" id="academic">
+      <h2 class="title">Academic Profile</h4>
+      <div class="row container main-con">
+         <div class="col-3 content">
+            <h4>2022</h4>
+            <p>B.Tech Information Technology</p>
+            <p>Saranathan college of engineering - Trichy</p>
+            <p>Anna University</p>
+            <p>CGPA - 8.21%</p>
+         </div>
+         <div class="col-3 content">  
+            <h4>2018</h4>
+            <p>Higher Secondary Course</p>
+            <p>ER Boys Higher Secondary School - Trichy</p>
+            <p>State Board of Tamil Nadu</p>
+            <p>Percentage - 65.4%</p>
+         </div>
+         <div class="col-3 content">
+            <h4>2016</h4>
+            <p>Secondary Course</p>
+            <p>Bishop Heber Higher Secondary School - Trichy</p>
+            <p>State Board of Tamil Nadu</p>
+            <p>Percentage - 68%</p>
+         </div>   
       </div>
-   </div>   
+  </div>
+  <!-- *****project***** -->
+  <div class="pro">
+    <h2 class="title" id="project">Project</h2>
+      <div class="project">
+         <div class="row project1">
+            <div class="col-6 pro_con">
+               <h3>Hospital Appointment Boooking System</h3>
+               <p>A hospital appointment system is a software application that enables patients to schedule appointments with doctors, specialists, and other healthcare providers online. The system is designed to streamline the appointment scheduling process, reduce wait times, and improve patient satisfaction by providing a user-friendly interface that allows patients to easily book appointments at their convenience.</p>
+            </div>
+            <div class="col-6 pro_img">
+
+            </div>
+         </div>
+         <div class="row project2">
+            <div class="col-6 pro_con">
+               <h3>Plant Disease identification using Deep Learning</h3>
+               <p>A plant disease identification system is a software application that helps farmers and other users identify diseases that may be affecting their plants. The system uses various inputs, such as images of plant leaves or fruit, to identify the disease and provide recommendations for treatment options.The system typically relies on a database of plant diseases and symptoms, which is used to identify the disease based on user input. The database may include information on a wide range of diseases, including fungal, viral, and bacterial infections, as well as other types of plant damage caused by environmental factors.</p>
+            </div>
+            <div class="col-6 pro_img1">
+
+            </div>   
+         </div>  
+      </div>
+  </div>
+  <!-- *****Certificate***** -->
+  <h2 class="title">Certification</h2>
+  <div>
+    <div class="row certificate">
+       <div class="col-3 cert_main">
+          <img src="./image/cert.svg" alt="">
+          <p class="cert_con">Certificate on completion of C from IIT Bombay.</p>
+       </div>   
+       <div class="col-3 cert_main">
+          <img src="./image/cert.svg" alt="">
+          <p class="cert_con">Certificate on completion of Clinical Data Management from Veranex,Bangalore.</p> 
+       </div>      
+    </div>
+ </div>
+ <!-- *****Technical***** -->
+ <h2 class="title" id="technical">Skills</h2>
+ <div class="circle1">
+    <div class="circle"><i class="fa-brands fa-html5 fa-2x"></i><p>HTML</p></div>
+    <div class="circle"><i class="fa-brands fa-css3-alt fa-2x"></i><p>CSS</p></div>
+    <div class="circle"><i class="fa-solid fa-c fa-2x"></i><p>C Program</p></div>
+    <div class="circle"><i class="fa-brands fa-java fa-2x"></i><p>JAVA</p></div>
+    <div class="circle"><i class="fa-solid fa-database fa-2x"></i><p>SQL</p></div>
+ </div>  
+ <!-- *****contact***** -->
+ <h2 class="title" id="contact">Contact</h2>
+ <div class="page-main contact">
+      <div class="row">
+         <div class="col-6">
+          <input type="text" id="fname" name="fname" placeholder="First Name">  
+         </div> 
+         <div class="col-6">
+          <input type="text" id="lname" name="lname" placeholder="Last Name">
+         </div> 
+         </div>  
+      <div class="row"> 
+         <div class="col"> 
+         <input type="text" id="email" name="email" placeholder="Email">
+         </div>
+      </div>   
+      <div class="row">
+         <div class="col">
+         <textarea type="text" id="message" name="message" placeholder="Message" rows="5"></textarea>
+         </div>
+      </div>
+      </div>
 </body>
 </html>
