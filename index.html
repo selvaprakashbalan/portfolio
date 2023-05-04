@@ -12,11 +12,6 @@
 </head>
 <body class="resume">
    <div class="portfolio">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     <!-- *****Navbar***** -->
     <nav class="navbar navbar-expand-lg nav-bar">
        <div class="container-fluid">
@@ -46,7 +41,7 @@
        </div>
     </nav>
     <!-- *****Main page***** -->
-    <div data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000" class="row container page-main" id="portfolio">
+    <div class="row container page-main" id="portfolio">
        <div class="col page-con">
           <h3>Selvaprakash.B</h3>
           <p>Software Developer</p>
@@ -72,21 +67,21 @@
    <section class="aca_con" id="academic">
       <h2 class="title">Academic Profile</h4>
       <div class="row container main-con">
-         <div data-aos="flip-left" data-aos-duration="1000" class="col-3 content">
-            <h4>2022</h4>
-            <p>B.Tech Information Technology</p>
-            <p>Saranathan college of engineering - Trichy</p>
-            <p>Anna University</p>
-            <p>CGPA - 8.21%</p>
+          <div class="col-3 content">
+             <h4>2022</h4>
+             <p>B.Tech Information Technology</p>
+             <p>Saranathan college of engineering - Trichy</p>
+             <p>Anna University</p>
+             <p>CGPA - 8.21%</p>
          </div>
-         <div data-aos="flip-up" data-aos-duration="1000" class="col-3 content">  
+         <div class="col-3 content">  
             <h4>2018</h4>
             <p>Higher Secondary Course</p>
             <p>ER Boys Higher Secondary School - Trichy</p>
             <p>State Board of Tamil Nadu</p>
             <p>Percentage - 65.4%</p>
          </div>
-         <div data-aos="flip-right" data-aos-duration="1000" class="col-3 content">
+         <div class="col-3 content">
             <h4>2016</h4>
             <p>Secondary Course</p>
             <p>Bishop Heber Higher Secondary School - Trichy</p>
@@ -99,7 +94,7 @@
   <section class="pro">
     <h2 class="title" id="project">Project</h2>
       <div class="project">
-         <div data-aos="fade-right" data-aos-duration="1000" class="row project1">
+         <div class="row project1">
             <div class="col-6 pro_con">
                <h3>Hospital Appointment Boooking System</h3>
                <p>A hospital appointment system is a software application that enables patients to schedule appointments with doctors, specialists, and other healthcare providers online. The system is designed to streamline the appointment scheduling process, reduce wait times, and improve patient satisfaction by providing a user-friendly interface that allows patients to easily book appointments at their convenience.</p>
@@ -108,7 +103,7 @@
 
             </div>
          </div>
-         <div data-aos="fade-left" data-aos-duration="1000" class="row project2">
+         <div class="row project2">
             <div class="col-6 pro_con">
                <h3>Plant Disease identification using Deep Learning</h3>
                <p>A plant disease identification system is a software application that helps farmers and other users identify diseases that may be affecting their plants. The system uses various inputs, such as images of plant leaves or fruit, to identify the disease and provide recommendations for treatment options.The system typically relies on a database of plant diseases and symptoms, which is used to identify the disease based on user input. The database may include information on a wide range of diseases, including fungal, viral, and bacterial infections, as well as other types of plant damage caused by environmental factors.</p>
@@ -123,11 +118,11 @@
   <section class="certifi">
   <h2 class="title">Certification</h2>
     <div class="row certificate">
-       <div data-aos="zoom-in-right" data-aos-duration="1000" class="col-3 cert_main">
+       <div class="col-3 cert_main">
           <img src="./image/cert.svg" alt="">
           <p class="cert_con">Certificate on completion of C from IIT Bombay.</p>
        </div>   
-       <div data-aos="zoom-in-left" data-aos-duration="1000" class="col-3 cert_main">
+       <div class="col-3 cert_main">
           <img src="./image/cert.svg" alt="">
           <p class="cert_con">Certificate on completion of Clinical Data Management from Veranex,Bangalore.</p> 
        </div>      
@@ -147,21 +142,21 @@
  <!-- *****contact***** -->
  <section class="con">
  <h2 class="title" id="contact">Contact</h2>
- <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" class="page-main1 contact">
-      <div class="row">
+ <div class="page-main1 contact">
+      <div class="row con_text">
          <div class="col-6">
           <input type="text" id="fname" name="fname" placeholder="First Name">  
          </div> 
-         <div class="col-6">
+         <!-- <div class="col-6">
           <input type="text" id="lname" name="lname" placeholder="Last Name">
-         </div> 
+         </div>  -->
          </div>  
-      <div class="row"> 
+      <div class="row con_text"> 
          <div class="col"> 
          <input type="text" id="email" name="email" placeholder="Email">
          </div>
       </div>   
-      <div class="row">
+      <div class="row con_text">
          <div class="col">
          <textarea type="text" id="message" name="message" placeholder="Message" rows="5"></textarea>
          </div>
@@ -171,5 +166,10 @@
        </div>
    </div>
  </section>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 </body>
 </html>
