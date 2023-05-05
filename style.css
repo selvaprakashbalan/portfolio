@@ -1,6 +1,16 @@
 .resume{
   color: #363538;
+  font-family: 'Lato', sans-serif;
+  font-size: 200px;
   font-size: medium;
+  overflow-x: hidden;
+}
+.title{
+  font-family: 'Castoro Titling', cursive;
+  font-size: bold;
+  text-align: center;
+  padding: 50px 0;
+  color: #408697;
 }
 /* *****Portfolio page***** */
 .portfolio{
@@ -14,8 +24,13 @@
 /* *****Navbar***** */
 .nav-bar{
     background-color: grey;
-     
 } 
+.nav-bar{
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 .navbar-nav .nav-item .nav_link:hover{
   color: rgba(0,255,255,0.7);
 }
@@ -24,9 +39,12 @@
   justify-content: flex-end;
 }
 /* *****Main page ***** */
+.pad{
+  justify-content: center;
+  padding-top: 150px;
+}
 .page-main{
-  margin: 95px auto;
-  width: 36%;
+  width: 50%;
   height: 500px;
   border-radius: 15px;
   box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
@@ -44,40 +62,34 @@
   margin-right: 10px;
 }
 .page-but{
-  margin: 30px;
+  padding: 20px;
 }
 .img{
   border-radius: 15px 50px;
   background-image: url("./image/logo1.avif");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 65px;
-  height: 211px;
+  background-position: center;
+}
+.page-con h3{
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
 }
 /* *****Academic Profile***** */
 .aca_con{
-  height: 712px;
-  padding-top: 75px;
+  height: 500px;
+  padding-top: 30px;
   background-color: #F6F6F6;
   color: #333333;
 }
-.title{
-  text-align: center;
-  padding-top: 60px;
-  color: #408697;
-}
- 
 .main-con{
-  margin-left: 90px;
+  justify-content: space-evenly;
 }
 .content{
-  margin: 45px auto;
-  width: 30%;
-  height: 255px;
-  border-radius: 15px;
+  border-radius: 40px;
   box-shadow: 0px 5px 10px 0px #8D8C8A; 
   transform: translateY(-5px);
-  padding: 37px;
+  padding: 15px;
   text-align: center;
 }
 .content:hover{
@@ -86,6 +98,7 @@
 }
 /* *****Project***** */
 .pro{
+  padding-top: 30px;
   background: url("./image/20513010.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,11 +110,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    row-gap: 100px;
     margin: 50px 200px 60px 200px;
 }
 .project1{
-    margin: 45px auto;
-    width: 84%;
     height: 360px;
     border-radius: 11px;
     box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
@@ -113,8 +125,6 @@
   box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
 }
 .project2{
-  margin: 45px auto;
-  width: 84%;
   height: 420px;
   border-radius: 11px;
   box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
@@ -141,20 +151,18 @@
 /* *****Certificate***** */
 .certifi{
   background-color: #F6F6F6;
+  height: 590px;
 }
 .certificate{
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-evenly;
 }
 .cert_con{
   text-align: center;
   padding: 20px;
 }
 .cert_main{
-  margin: 45px auto;
-  width: 30%;
-  height: 514px;
+  height: 360px;
   border-radius: 15px;
   box-shadow: 0px 5px 10px 0px #8D8C8A;
   transform: translateY(-5px);
@@ -164,14 +172,15 @@
   transform: translateY(-5px);
   box-shadow: 0px 10px 20px 2px #8D8C8A;
 }
+.cert_main img{
+  width: 100%;
+}
 /* *****Skills***** */
 .skills{
   height: 400px;
 }
 .circle{
-   margin: 45px auto;
   width: 15%;
-  height: 145px;
   border-radius: 72px;
   box-shadow: 0px 5px 10px 0px #8D8C8A;
   transform: translateY(-5px)
@@ -198,13 +207,15 @@
   background-image: url("./image/mapp.jpg");
   background-size: cover;
   background-position: center;
-  height: 800px;
   color: white;
-
+}
+.con1{
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
 }
 .page-main1{
-  margin: 95px auto;
-  width: 36%;
+  width: 30%;
   height: 500px;
   border-radius: 15px;
   box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
@@ -229,6 +240,15 @@
 } 
 .con_text{
   height: 200px;
+  width: 100%;
+}
+.page-but1{
+  display: flex;
+  justify-content: center;
+}
+/* *****Footer***** */
+.footer{
+  border: 15px solid gray;
 }
 
 /* 
