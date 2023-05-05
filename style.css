@@ -256,27 +256,18 @@
   box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7); 
   transform: translateY(-5px);
   padding: 50px;
-}
-.contact{
-  display: flex;
+  display:flex;
   flex-direction: column;
-} 
-.contact input{
-  border: none;
+  row-gap: 20px;
+}
+.page-main1 input{
+  border: 1px solid white;
   background: none;
 }
-.contact input:hover{
-  border: none;
-
-}  
-.contact textarea{
-  border: none;
+.page-main1 textarea{
+  border: 1px solid white;
   background: none;
 } 
-.con_text{
-  height: 200px;
-  width: 100%;
-}
 .page-but1{
   display: flex;
   justify-content: center;
@@ -527,7 +518,11 @@ html{
   margin-left: -31px;
 }
 /* *****Certificate***** */
+.certifi{
+  height: 820px;
+}
 .certificate {
+      height: 720px;
   flex-direction: column;
   row-gap: 40px;
 }
@@ -555,11 +550,11 @@ html{
 }
 /* *****contact***** */
 .con{
-  height: 530px;;
+  height: 748px;
 }
 .page-main1{
   margin: 41px auto;
   width: 80%;
-  height: 363px;
+  height: 490px;
 }
 }
