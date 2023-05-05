@@ -367,7 +367,7 @@
 /* *****project***** */
 .pro{
   width: 310px;
-  height: 1340px;;
+  height: 1340px;
 }
 .project{
   margin: 0px;
@@ -445,20 +445,33 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-.portfolio{
-  height: 890px;
+html{
+  overflow-x: hidden !important;
+}
+.title{
+  padding: 35px 0;
+}
+/* *****Nav Bar***** */
+ .nav-bar{
+  width: 320px;
  } 
   /* *****Main page*****  */
 .page-main{
-   width: 255px;
+   width: 290px;
   padding: 20px 10px;
 }
 .img{
-  visibility: hidden;
+  height: 100px;
+}
+.page-con h3 {
+  font-size: 30px;
+}
+.sof {
+  font-size: 25px;
 }
 /* *****academic profile***** */
 .aca_con{
-  height: 1190px;
+  height: 910px;
   padding-top: 0px;
 }
 .main-con{
@@ -467,44 +480,57 @@
   align-content: baseline;
   width: 640px;
   font-size: 11px;
-  margin-left: 60px;
+  row-gap: 40px;
+  margin-left: 80px;
 }
 /* *****project***** */
+.pro{
+  height: 1230px;
+}
 .project1{
-    margin-left: -155px;
-    margin-top: -3px;
-    font-size: 11px;
-    width: 240px;
-    padding: 0px;
+  height: 392px;
+  margin-left: -155px;
+  margin-top: -30px;
+  font-size: 11px;
+  width: 240px;
+  padding: 0px;
 }
 .pro_con{
   width: 200px;
 }
 .pro_con h3{
   margin-top: 20px;
+  font-size: 15px;
+}
+.pro_con p{
+  font-size: 13px;
 }
 .pro_img{
-    height: 117px;
+    height: 155px;
     width: 92px;
     margin-left: -52px;
 }
 .project2{
-    height: 460px;
+    height: 535px;
     margin-left: -155px;
-    margin-top: -3px;
+    margin-top: -45px;
     font-size: 11px;
     width: 240px;
     padding: 0px; 
 }
 .pro_img1{
-    height: 117px;
-    width: 92px;
-    margin-left: -52px;
+  height: 70px;
+  width: 71px;
+  margin-left: -31px;
 }
 /* *****Certificate***** */
+.certificate {
+  flex-direction: column;
+  row-gap: 40px;
+}
 .cert_main{
-  width: 75%;
-  height: 364px;
+  width: 70%;
+  height: 260px;
   margin-left: 55px;
   padding: 0px;
 }
