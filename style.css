@@ -340,6 +340,27 @@ html{
 .page-main{
   width: 85%;
 }
+/* *****academic profile***** */
+.aca_con{
+  padding: 0%;
+  font-size: 14px;
+}
+/* *****project***** */
+.pro{
+  height: 1510px;
+}
+.project{
+  margin: 50px 60px 60px 60px;
+}
+.project1{
+  height: 400px;
+}
+.para{
+  font-size: 16px;
+}
+.project2{
+  height: 580px;
+}
 
 }
 
