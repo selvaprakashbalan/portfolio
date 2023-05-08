@@ -95,15 +95,13 @@
   font-family: 'Amatic SC', cursive;
   font-size: xx-large;
 }
-.linkedin{
+.pro_icon{
+  color: white;
+}
+.pro_icon:hover{
   color: rgba(0,255,255,0.7);
 }
-.github{
-  color: rgba(0,255,255,0.7);
-}
-.twitter{
-  color: rgba(0,255,255,0.7);
-}
+
 /* *****Academic Profile***** */
 .aca_con{
   height: 500px;
@@ -290,6 +288,19 @@
 /* *****Footer***** */
 .footer{
   border: 15px solid gray;
+}
+.footer p{
+  background-color: gray;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.footer_icon{
+  color: white;
+}
+.footer_icon:hover{
+  color: rgba(0,255,255,0.7);
 }
 
 /* 
