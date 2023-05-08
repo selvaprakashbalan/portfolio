@@ -413,11 +413,11 @@ html{
   overflow-x: hidden;
  } 
 .portfolio{
-  width: 480px;
+  width: 770px;
   height: 735px;
 }
 .navbar{
-  width: 480px;
+  width: 770px;
 }
 /* *****Main page*****   */
 .page-main{
@@ -431,13 +431,13 @@ html{
   font-size: 30px;
 }
 .img{
-  height: 220px;
-  margin-top: 113px;
+  height: 380px;
+  margin-top: 50px;
 }
 /* *****academic profile***** */
 .aca_con{
-   width: 480px;
-   height: 1020px;
+   width: 770px;
+   height: 470px;
    padding-top: 0px;
 }
 .main-con {
@@ -445,12 +445,12 @@ html{
     align-items: center;
 }
 .content{
-  width: 65%;
+  width: 30%;
 }
 /* *****project***** */
 .pro{
-  width: 480px;
-  height: 1440px;
+  width: 770px;
+  height: 1040px;
 }
 .para{
   font-size: 17px;
@@ -461,7 +461,7 @@ html{
 }
 .project1{
   padding: 0px;
-  height: 455px;
+  height: 310px;
   width: 85%;
 }
 .pro_con{
@@ -472,7 +472,7 @@ html{
 }
 .project2{
   padding: 0px;
-  height: 660px;
+  height: 405px;
   width: 85%;
 }
 .pro_img1{
@@ -480,16 +480,16 @@ html{
 }
 /* *****Certificate***** */
 .certifi{
-  width: 480px;
-  height: 830px;
+  width: 770px;
+  height: 510px;
 }
 .certificate{
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   row-gap: 35px;
 }
 .cert_main{
-  width: 60%;
+  width: 35%;
   height: 300px;
   padding: 0px;
 }
@@ -498,23 +498,21 @@ html{
 }
 /* *****Skills***** */
 .skills{
-  width: 480px;
-  height: 920px;
+  width: 770px;
+  height: 310px;
 }
 .circle1{
-  flex-direction: column;
   align-items: center;
   row-gap: 35px;
 }
 .circle{
-  width: 43%;
   height: 115px;
-  border-radius: 45px;
+  border-radius: 30px;
 }
 /* *****contact***** */
 .con{
-  width: 480px;
-  height: 635px;
+  width: 770px;
+  height: 670px;
 }
 .page-main1{
   width: 82%;
